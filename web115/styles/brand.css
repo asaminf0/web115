@@ -1,0 +1,124 @@
+body{ 
+	background-color:#d5d5d5;
+	width:100%;
+	font-family: 'Heebo', sans-serif;
+}
+main{
+	margin-left:30px;
+	padding-left:30px;
+	padding-top:5px;
+	margin-top:5px;
+}
+.align{
+	text-align:right;
+	color:#675503;
+	text-align:right;
+	margin-right:50px;
+	padding-right:30px;
+	font-family: 'Niconne', cursive;
+	text-decoration:underline;
+	font-size:30px;
+}
+.index{	
+	color:#383838;
+	font-size:30px;
+}
+ul{
+	font-size:20px;
+}
+img.logoimg{
+	width:300px; height:200px; 
+	top:5px;
+	text-align:left;
+} 
+h1{text-align:center;
+	color:#d9643a;
+	font-size:35px;
+	}
+
+h2{
+	text-align:left;
+	color:#d9643a;
+} 
+
+h3{
+	color:#383838;
+	text-align:left;
+}
+
+h4{
+	color:white;
+}
+h5{
+	color:#383838;
+	font-size:15px;
+}
+
+a{
+	text-decoration:none;
+	color:#d9643a;
+}
+
+a:visited{
+	color:#d9643a;
+}
+
+a:focus{
+	color:white;
+}
+
+a:active{
+	color:white;
+}
+
+a:hover {
+	border-bottom: 1px solid #383838;
+}
+
+footer{
+	text-align:center;
+}
+
+.home-page{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	background-color:#383838;
+	color:white;
+}
+/* These classes are for the validation buttons */
+.htmlbutton  {
+	color: white;
+	background-color: #f6437c;
+	border: 1px solid #E9E3E6;
+	border-radius: 12px;
+	padding: 5px 5px;
+}
+.htmlbutton:hover  {
+	color: black;
+	background-color: #f6437c;
+	border: 3px solid #E9E3E6;
+}
+.htmlbutton:active {
+	top: 2px;
+}
+.cssbutton  {
+	color: white;
+	background-color: #2f6c8e;
+	border: 1px solid #E9E3E6;
+	border-radius: 12px;
+	padding: 5px 12px;
+}
+.cssbutton:hover  {
+	color: black;
+	background-color: #2f6c8e;
+	border: 3px solid #E9E3E6;
+}
+.cssbutton:active  {
+	top: 2px;
+}
+
+
+
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<!--  
+	Author: Atefeh
+	Date:11/16/2020
+	-->
+	<title>Atefehphoto - web115 - Fizz Buzz 4</title>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="atefeh profile" />
+	<link href="styles/fizzbuzz0.css" rel="stylesheet"/>
+	<script  src="scripts/fizzbuzz2.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+		<br><br>
+		<img src="images/logon.png" alt="logo">
+		<h2 class="align"> life is like a camera, so smile!</h2><br>
+		<h1>Fizz Buzz4</h1>
+</header> 
+<main class="form-body">
+	<h2 id="greet"> </h2>
+	<br>
+	<div class="container">
+		<div class="frame1">
+			<br><br>
+			<form class="form-signin" name="form" action="#" method="post" onsubmit="return validateForm();">
+				<label for="first_number">First number:</label>
+				<input class="form-styling" type="text" id="first_number" name="first_number" value="" placeholder="Enter first number ">
+				<label for="second_number">Second number:</label>
+				<input class="form-styling" type="text" id="second_number" name="second_number" value="" placeholder="Enter second number ">
+				<label for="third_number">Third number:</label>
+				<input class="form-styling" type="text" id="third_number" name="third_number" value="" placeholder="Enter third number ">
+				<label for="total_number">Total number to count:</label>
+				<input class="form-styling" type="text" id="total_number" name="total_number" value="" placeholder="Enter total number to count ">
+				<label for="count_number">Number for the increment of count:</label>
+				<input class="form-styling" type="text" id="count_number" name="count_number" value="" placeholder="Enter number for the increment of count ">
+				<label for="first_word">First word to output:</label>
+				<input class="form-styling" type="text" id="first_word" name="first_word" value="" placeholder="Enter word to output ">
+				<label for="second_word">Second word to output:</label>
+				<input class="form-styling" type="text" id="second_word" name="second_word" value="" placeholder="Enter word to output ">
+				<label for="third_word">Third word to output:</label>
+				<input class="form-styling" type="text" id="third_word" name="third_word" value="" placeholder="Enter word to output ">
+				<div class="btn-animate">
+					<input class="btn-signin" type="button" onclick="fizzbuzz4()" value="Submit">
+				</div>
+
+
+			</form> 
+		</div>	
+		<aside id="loop"></aside>
+	</div>
+
+</main>
+<footer>
+		<table class="home-page">
+			<tr>
+				<td>
+					<br>
+					 <a href="http://students.cpcc.edu/~asaminf0/web115/">CP Webspace</a>    
+					 <a href="https://github.com/asaminf0">Github</a>        
+					 <a href="http://asaminf0.github.io">Github Pages</a>        
+					 <a href="https://www.khanacademy.org/profile/asaminf0/">Khan Academy</a>    
+					 <a href="https://www.codecademy.com/profiles/asaminf0">Codecademy</a>    
+					 <a href="https://www.freecodecamp.org/asaminf0">FreeCodeCamp</a>    
+					 <a href="https://jsfiddle.net/user/asaminf0/">JSFiddle</a>    
+					 <a href="https://profile.edx.org/u/asaminf0">Edx</a>    
+					 <a href="https://www.linkedin.com/in/atefeh-saminfar/">LinkedIn</a>  
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Designed by Atefeh Saminfar. All rights reserved. © 2020 </h4>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<button class = "htmlbutton" onclick = "window.location.href='http://validator.w3.org/check?uri=referer';" title="Validate">W3C HTML5</button>           
+		<button class = "cssbutton" onclick = "window.location.href='http://jigsaw.w3.org/css-validator/check/referer';" title="Validate">W3C CSS</button>   
+		<hr>
+	</footer>
+</body>
+</html>
+	

@@ -1,0 +1,122 @@
+body{ 	
+	background-color:#a89b8a;
+	font-family: 'Heebo', sans-serif;
+}
+
+main{	
+	color:#a17c0b;
+	background-color:white;
+	max-width: 60%;
+	box-shadow: gray 20px 0px 25px,gray -20px 0px 25px;
+	margin:auto;
+	margin-top:15px;
+	padding:25px;
+	line-height:25px;
+}
+
+h1{	
+	text-align:center;
+	color: #f53b85;
+}
+h2{
+	text-align:center;
+
+}
+figure{
+	text-align:center;
+}
+em{
+	color: #f53b85;
+}
+
+a {
+	text-decoration:none;
+	color: #8a214b;
+}
+
+a:visited {
+	color: #f53b85;
+}
+
+a:hover {
+	color: #edc511;
+}
+
+nav{
+	text-align:center;
+	font-size:15px;
+	background-color:#a89b8a;
+	color:#edc511;
+	max-width: 97%;
+	box-shadow: gray 5px 0px 5px,gray -5px 0px 5px;
+	margin:auto;
+	margin-top:15px;
+	padding:25px;
+	border-radius:25px;
+}
+
+footer{
+	text-align:center;
+}
+.container {
+	position: relative;
+	width: 50%;
+	max-width: 300px;
+	margin:auto;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin:auto;
+}
+
+.overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgba(245,59,133, 0.4); 
+	color: #f1f1f1; 
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Heebo', sans-serif;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+/* These classes are for the validation buttons */
+.htmlbutton  {
+	color: white;
+	background-color: #f6437c;
+	border: 1px solid #E9E3E6;
+	border-radius: 12px;
+	padding: 5px 5px;
+}
+.htmlbutton:hover  {
+	color: black;
+	background-color: #f6437c;
+	border: 3px solid #E9E3E6;
+}
+.htmlbutton:active {
+	top: 2px;
+}
+.cssbutton  {
+	color: white;
+	background-color: #2f6c8e;
+	border: 1px solid #E9E3E6;
+	border-radius: 12px;
+	padding: 5px 12px;
+}
+.cssbutton:hover  {
+	color: black;
+	background-color: #2f6c8e;
+	border: 3px solid #E9E3E6;
+}
+.cssbutton:active  {
+	top: 2px;
+}

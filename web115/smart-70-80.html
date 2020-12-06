@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--  
+		Author: Atefeh
+		Date:11/24/2020
+	-->
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="atefeh profile" />
+	<title>WEB115 - Smart-71-80 - Atefeh </title>
+	<link href="styles/introduction_form.css" rel="stylesheet"/> 
+	<script type="text/javascript" src="scripts/smart70.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header> 
+	<h1>Smarter Way to Learn Chapters 71-80</h1>
+	</header>
+	<main>
+		<h2>Chapter  71  </h2>
+		An object with one property and one method. The method displays the value of the property in an alert. <br>
+		<strong>
+			var makeNice = {
+			compliment: "You're so good-lookin'!",
+			sayIt: function() {
+			alert(this.compliment);
+			}
+			};
+			makeNice.sayIt();		
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart71()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  72   </h2>
+		Code the constructor function that creates the object and its properties. The parameters are color and gender.
+		<br>
+		<strong>
+			function Cat(color, gender) {
+			this.color = color;
+			this.gender = gender;
+			}
+			var cat10 = new Cat("white", "female");
+			alert("The cat is a "+cat10.color+" "+cat10.gender);
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart72()" title="Validate">submit</button>  
+			<hr>
+		</div>	
+		<h2>Chapter  73     </h2>
+		Code a constructor function that creates a property and a method that displays the property in an alert.<br>
+		<strong>
+			img src="http://www.wikipedia.org">
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart73()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  74 -  </h2>
+		My third line creates a new object using the constructor. Display the value of its prototype property in an alert.<br>
+		<strong>
+			var nodeList = pNode.______;
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart74()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  75   </h2>
+		Code an alert that confirms the object has such a property.<br>
+		<strong>
+			h1 id="main" class="normal" style="text-decoration:underline;">This <em>is</em> important!></h1>
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart75()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		
+		<h2>Chapter  76 -  </h2>
+		Display the current URL in an alert.<br>
+		<strong>
+			alert(window.location.href);
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart76()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  77 -  </h2>
+		direct the browser to wikipedia.org.<br>
+		<strong>
+			var newParagraph = document.createElement("p");
+			var newText = document.createTextNode("LOL");
+			newParagraph.appendChild(newText);
+			<input type="button" value="Click for satisfaction" onClick="smart77();"> 
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart77()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  78 -  </h2>
+		Direct the browser to back up 1 URL without using the word go.
+		<br>
+		<strong>
+		var newParagraph = document.createElement("p");
+		div3.insertBefore(newParagraph, div3.firstChild);
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart78()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  79 - </h2>
+		Open a new window whose handle is w.
+		<br>
+		<strong>
+			var w = window.open("http://www.wikipedia.org");
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart79()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		
+		<h2>Chapter  80 - </h2>
+		Open a new window, newWin, with a blank URL and name, and parameters for (in this order) size across, size up and down, 
+		distance from the side, and distance from the top. 
+		The parameters are 300, 200, 100, and 50.		<br>
+		<br>
+		<strong>
+			var w = window.open("", "", "width=300,height=200,left=100,top=50");
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart80()" title="Validate">submit</button>  
+			<hr>
+		</div>
+	</main>
+	<footer>
+		<h4>Designed by Atefeh Saminfar. All rights reserved. © 2020 </h4>
+		<br>
+		<button class = "htmlbutton" onclick = "window.location.href='http://validator.w3.org/check?uri=referer';" title="Validate">W3C HTML5</button>           
+		<button class = "cssbutton" onclick = "window.location.href='http://jigsaw.w3.org/css-validator/check/referer';" title="Validate">W3C CSS</button>   
+	</footer>
+</body>
+</html>

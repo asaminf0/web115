@@ -1,0 +1,289 @@
+/*http://students.cpcc.edu/~asaminf0/web115/fizzbuzz01.html*/
+body{ 	
+	background-color:#a89b8a;
+	font-family: 'Heebo', sans-serif;
+}
+
+main{	
+	color:#a17c0b;
+	background-color:white;
+	max-width: 60%;
+	box-shadow: gray 20px 0px 25px,gray -20px 0px 25px;
+	margin:auto;
+	margin-top:15px;
+	padding:25px;
+	line-height:25px;
+}
+hr{
+	color:red;
+}
+.smart{
+	text-align:center;
+}
+.home-page{
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	color:#d79e35;
+}
+
+h1{	
+	text-align:center;
+	color: #f53b85;
+}
+
+#greeting{
+	text-align:center;
+	color: #f53b85;
+}
+#name,#fam,#coun,#email,#phone{
+	color: #f53b85;
+	margin-left:30px;
+	font-size:20px;
+	text-align:left;
+	}
+.wrapper{
+	max-width:500px;
+	width:100%;
+	background:#ffff;
+	margin:20px auto;
+	padding: 30px;
+	box-shadow:1px 1px 2px rgb(0,0,0,0.125);
+	
+}
+
+h2{
+	text-align:center;
+	color: #f53b85;
+} 
+
+h1{
+	color: #f53b85;
+	text-align:center;
+}
+h4{
+	color:white;
+}
+
+h5{
+	color:#383838;
+	font-size:15px;
+}
+
+
+nav{
+	text-align:center;
+	font-size:15px;
+	background-color:#a89b8a;
+	color:#edc511;
+	max-width: 97%;
+	box-shadow: gray 5px 0px 5px,gray -5px 0px 5px;
+	margin:auto;
+	margin-top:15px;
+	padding:25px;
+	border-radius:25px;
+}
+.container {
+	position: relative;
+	width: 50%;
+	max-width: 300px;
+	margin:auto;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin:auto;
+}
+
+.overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgba(245,59,133, 0.4); 
+	color: #f1f1f1; 
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Heebo', sans-serif;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+
+a:focus{
+	color:white;
+}
+
+a:active{
+	color:white;
+}
+
+a:hover {
+	border-bottom: 1px solid #383838;
+	text-decoration:underline;
+}
+
+footer{
+	text-align:center;
+}
+*************************form****************************
+.form-html * { box-sizing: border-box;  
+}
+
+.form-body {
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	padding-top:20px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color:white;
+	display: block;
+	text-align:left;
+}
+
+.container {
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 25px;
+}
+
+.frame {
+	height: 650px;
+	width: 430px;
+	background:#a89b8a;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+}
+
+.form-signin {
+	width: 350px;
+	height: 375px;
+	font-size: 13px;
+	font-weight: 300;
+	padding-left: 37px;
+	padding-right: 37px;
+	padding-top: 5px;
+	transition: opacity .5s ease, transform .5s ease;
+}
+
+.form-signin input{
+	color: #dc381f;
+	font-size: 16px;
+}
+
+.form-styling {
+	width: 100%;
+	height: 35px;
+	padding-left: 15px;
+	border: none;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	background: rgba(255,255,255,.7);
+}
+
+:focus {outline: none;
+}
+
+.form-signin input:focus{
+	background-color:rgba(255,255,255,.3);
+	border: none; 
+	padding-right: 40px;
+	transition: background .5s ease;
+	font-size:20px;
+ }
+
+.btn-signin {
+	float: left;
+	padding-top: 8px;
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-radius: 20px;
+	margin-top: -8px;
+	color: #e09f9f;
+	background-color:rgba(255,255,255,.1);
+	left: 0px;
+	top: 0px;
+	text-align: center;
+}
+
+.btn-signin:hover {
+    cursor: pointer; 
+    background-color: rgba(255,255,255,.5);
+    transition: background-color .5s; 
+}
+
+.btn-animate {
+	float: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	text-align: center;
+	color: #e09f9f;
+	padding-top: 8px;
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-radius: 20px;
+	margin-top: 23px;
+	background-color:rgba(255,255,255,.3);
+	left: 0px;
+	top: 0px;
+	transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s; 
+}
+/* These classes are for the validation buttons */
+.htmlbutton  {
+	color: white;
+	background-color: #f6437c;
+	border: 1px solid #E9E3E6;
+	border-radius: 12px;
+	padding: 5px 5px;
+	text-align:center;
+}
+.htmlbutton:hover  {
+	color: black;
+	background-color: #f6437c;
+	border: 3px solid #E9E3E6;
+}
+.htmlbutton:active {
+	top: 2px;
+}
+.cssbutton  {
+	color: white;
+	background-color: #2f6c8e;
+	border: 1px solid #E9E3E6;
+	border-radius: 12px;
+	padding: 5px 12px;
+}
+.cssbutton:hover  {
+	color: black;
+	background-color: #2f6c8e;
+	border: 3px solid #E9E3E6;
+}
+.cssbutton:active  {
+	top: 2px;
+}
+.submitbutton{
+	text-align:center;
+}
+

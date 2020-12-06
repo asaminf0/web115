@@ -1,0 +1,145 @@
+body{ 
+	background-color:#d5d5d5;
+	width:100%;
+	font-family: 'Heebo', sans-serif;
+}
+img.logoimg{
+	width:200px; height:102px; 
+	top:5px;float:left;
+}
+h1{text-align:center;
+	color:#d9643a;
+	font-size:35px;
+}
+
+h2{
+	color:#383838;
+	text-align:center;
+}
+	
+h3,h4{
+	color:#8d8d8d;
+}
+
+h5{
+	color:#383838;
+	font-size:15px;
+}
+
+.align{
+	text-align:right;
+	color:#675503;
+	text-align:right;
+	margin-right:50px;
+	padding-right:30px;
+	font-family: 'Niconne', cursive;
+	text-decoration:underline;
+	font-size:30px;
+}
+
+footer{
+	text-align:center;
+}
+
+/******************************************************************Surreal page ******************************************************************/
+.container {
+  position: relative;
+  text-align:center;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #e09f9f;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  left: 300px;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right:300px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  font-size: 20px;
+  padding: 2px 16px;
+  color: #fa6e4b;
+  background-color:white;
+  box-shadow:10px 10px 10px gray;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.fantastic-img{
+	cursor:pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fantastic-img:hover{
+	transform: rotate(3deg);
+}
+
+.fantascic-text{
+	color:#383838;
+	font-size:20px;
+	text-align:center;
+}
+
+.fantastic-img1{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+

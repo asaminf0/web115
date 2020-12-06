@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--  
+		Author: Atefeh
+		Date:11/24/2020
+	-->
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="atefeh profile" />
+	<title>WEB115 - Smart-41-50 - Atefeh </title>
+	<link href="styles/introduction_form.css" rel="stylesheet"/> 
+	<script  src="scripts/smart40.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header> 
+	<h1>Smarter Way to Learn Chapters 41-50</h1>
+	</header>
+	<main>
+		<h2>Chapter  41 - while </h2>
+		list number 0 to 10.<br>
+		<strong>
+			var i = 0;
+			while (i <= 10) {
+			alert(i);
+			i++;
+}		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart41()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  42 - do while </h2>
+		Break out of the loop when "pig" is found..<br>
+		<strong>
+			var animals = ["horse", "ox", "cow", "pig", "duck"];
+			var i = 0;
+			do {
+			if (animals[i] === "pig") {
+			alert("Found it!");
+			break;
+			}
+			i++;
+			} while (i < animals.length)
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart42()" title="Validate">submit</button>  
+			<hr>
+		</div>	
+		<h2>Chapter  43 - script tag for JavaScript  </h2>
+		script is Opening and closing tag for JavaScript code.<br>
+		<strong>
+			<script src="main.js"></script>
+			
+			<script>
+			alert("Hello world!");
+			</script>
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart43()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  44 - commenting </h2>
+		tag for commenting 1 line at a time is //.
+		the opening tag for block comments is /*.<br>
+		<strong>
+			/*
+			This comment refers to
+			the code that follows
+			*/
+			// a = a - 1;
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart44()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  45 - onclick </h2>
+		In an alert display Hi, when clicked .<br>
+		<strong>
+			<a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a>
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart45()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		
+		<h2>Chapter  46 - creat button() </h2>
+		When the user clicks a button that says "Say hi" an alert displays saying "Hi".<br>
+		<strong>
+			<input type="button" value="Say hi" onClick="alert('Hi');">
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart46()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  47 - hovering </h2>
+		onMouseover detecting is for the user who hovering over an element.<br>
+		<strong>
+			<img src="1.png" onMouseover="src='2.png'">
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart47()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  48 - onFocus </h2>
+		onFocus keyword is for detecting the user has clicked in a field.<br>
+		<strong>
+			<input type="text" onFocus="doIt();">
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart48()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  49 - onSubmit</h2>
+		onSubmit keyword for detecting that the user has submitted a form.<br>
+		<strong>
+			What is your name?<br>
+			<form onSubmit="sayHi();">
+			<input type="text" id="name">
+			<input type="submit" value="Submit">
+			</form>
+
+			<script>
+			function sayHi() {
+			var userName = document.getElementById("name").value;
+			alert("Hello, " + userName + "!");
+			}
+</script>
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart49()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		
+		<h2>Chapter  50 - id for the field</h2>
+		Place some text in a field. Make up an id for the field.<br>
+		<strong>
+			document.getElementById("age").value = "21";
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart50()" title="Validate">submit</button>  
+			<hr>
+		</div>
+	</main>
+	<footer>
+		<h4>Designed by Atefeh Saminfar. All rights reserved. © 2020 </h4>
+		<br>
+		<button class = "htmlbutton" onclick = "window.location.href='http://validator.w3.org/check?uri=referer';" title="Validate">W3C HTML5</button>           
+		<button class = "cssbutton" onclick = "window.location.href='http://jigsaw.w3.org/css-validator/check/referer';" title="Validate">W3C CSS</button>   
+	</footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!--  
+		Author: Atefeh
+		Date:11/24/2020
+	-->
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="atefeh profile" />
+	<title>WEB115 - Smart-30-40 - Atefeh </title>
+	<link href="styles/introduction_form.css" rel="stylesheet"/> 
+	<script type="text/javascript" src="scripts/smart30.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header> 
+	<h1>Smarter Way to Learn Chapters 30-40</h1>
+	</header>
+	<main>
+		<h2>Chapter  30 - toFixed() </h2>
+		Code an alert that displays the number rounded to 2 decimal places and converted to a string.<br>
+		<strong>
+			var num = 1.123456;
+			alert(num.toFixed(2));</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart30()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  31 - new Date() </h2>
+		Code an alert that displays the number representing the current day.<br>
+		<strong>
+			var d = new Date();
+			alert(d.getDay());
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart31()" title="Validate">submit</button>  
+			<hr>
+		</div>	
+		<h2>Chapter  32 - getDate() </h2>
+		Code an alert that displays the current year.<br>
+		<strong>
+			var d = new Date();
+			alert(d.getFullYear());
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart32()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  33 - getHours() </h2>
+		In an alert display the hours, minutes, and seconds of the object.<br>
+		<strong>
+			var d = new Date("May 30, 2000");
+			alert(d.getHours() + " " + d.getMinutes() + " " + d.getSeconds());
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart33()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  34 - setHours() </h2>
+		In an alert display the hours, minutes, and seconds of the object.<br>
+		<strong>
+			var now = getHours();
+			var nowHours = now.getHours();
+			now.setHours(nowHours + 1);
+			alert(now);
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart34()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		
+		<h2>Chapter  35 - function() </h2>
+		Code a function that displays an alert, "Hello world."<br>
+		<strong>
+			function greet() {
+			alert("Hello world");
+			}
+			greet();
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart35()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  36 - parameters </h2>
+		call the function with parameters.<br>
+		<strong>
+			function smart36() {
+			function displayIdiom(part1, part2) {
+			alert(part1 + part2);
+			}
+			var part1=2;
+			var part2=4;
+			displayIdiom(part1, part2);
+			}
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart36()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  37 - call function </h2>
+		calling the function to create the message for the alert.<br>
+		<strong>
+			function smart37() {
+			function displayIdiom(part1, part2) {
+			alert(part1 + part2);
+			}
+			var part1="mor";
+			var part2="ning";
+			displayIdiom(part1, part2)
+			}
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart37()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  38 - call function with parameters</h2>
+		displays an alert with the message "Abraham Lincoln".<br>
+		<strong>
+			function makeMessage(part1, part2) {
+			var message = part1 + part2;
+			return message;
+			}
+			var firstName = "Abraham ";
+			var lastName = "Lincoln";
+			alert(makeMessage(firstName, lastName));
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart38()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  39 - switch</h2>
+		displays an alert with the message "You won".<br>
+		<strong>
+			var win = true;
+			switch(win) {
+			case true :
+			alert("You won");
+			break;
+			case false :
+			alert("You lost");
+			break;
+			}
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart39()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  40 - switch statement</h2>
+		Code a single-case switch statement that tests whether the variable has been assigned the value. If so, alert "Assigned".<br>
+		<strong>
+			var num = 10;
+			switch(num) {
+			case 10 :
+			alert("Assigned");
+			break;
+			}
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart40()" title="Validate">submit</button>  
+			<hr>
+		</div>
+	</main>
+	<footer>
+		<h4>Designed by Atefeh Saminfar. All rights reserved. © 2020 </h4>
+		<br>
+		<button class = "htmlbutton" onclick = "window.location.href='http://validator.w3.org/check?uri=referer';" title="Validate">W3C HTML5</button>           
+		<button class = "cssbutton" onclick = "window.location.href='http://jigsaw.w3.org/css-validator/check/referer';" title="Validate">W3C CSS</button>   
+	</footer>
+</body>
+</html>

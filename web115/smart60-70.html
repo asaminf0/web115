@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--  
+		Author: Atefeh
+		Date:11/24/2020
+	-->
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="atefeh profile" />
+	<title>WEB115 - Smart-61-70 - Atefeh </title>
+	<link href="styles/introduction_form.css" rel="stylesheet"/> 
+	<script type="text/javascript" src="scripts/smart60.js"></script> 
+	<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<header> 
+	<h1>Smarter Way to Learn Chapters 61-70</h1>
+	</header>
+	<main>
+		<h2>Chapter  61  </h2>
+		Fill in the blank to supply the first line of an if statement that tests whether, 
+		on each iteration of the for loop, 
+		the child node of d is an element node.<br>
+		<strong>
+			var d = document.getElementById("humpty");
+			var pCounter = 0;
+			for (var i = 0; i < d.childNodes.length; i++) {
+			____________________________________
+			pCounter++;
+			}
+			if (pCounter === 2) {
+			d.childNodes[i].innerHTML = "All his men.";
+			break;
+			}
+			}
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart61()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  62   </h2>
+		The node represented by pNode has 10 children. Code this the alternate way.<br>
+		<strong>
+			var tNode = pNode.childNodes[9];
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart62()" title="Validate">submit</button>  
+			<hr>
+		</div>	
+		<h2>Chapter  63     </h2>
+		In the markup below what is the node name of the element?<br>
+		<strong>
+			img src="http://www.wikipedia.org">
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart63()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  64 -  </h2>
+		Fill in the blank to make a collection of the nodes one level below the node represented by pNode.<br>
+		<strong>
+			var nodeList = pNode.______;
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart64()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  65   </h2>
+		In the following markup, how many attributes does the element have? (Answer with a numeral.)<br>
+		<strong>
+			h1 id="main" class="normal" style="text-decoration:underline;">This <em>is</em> important!></h1>
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart65()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		
+		<h2>Chapter  66 -  </h2>
+		Fill in the blank to make a collection of attributes and assign it to attList.<br>
+		<strong>
+			var attList = targetNode.___________;
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart66()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  67 -  </h2>
+		In 3 statements, create a paragraph and insert some text content into it.<br>
+		<strong>
+			var newParagraph = document.createElement("p");
+			var newText = document.createTextNode("LOL");
+			newParagraph.appendChild(newText);
+			<input type="button" value="Click for satisfaction" onClick="smart67();"> 
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart67()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  68 -  </h2>
+		Create an empty paragraph element, assign it to newParagraph, and insert it before the first element of the div represented by div3.
+		<br>
+		<strong>
+		var newParagraph = document.createElement("p");
+		div3.insertBefore(newParagraph, div3.firstChild);
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart68()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		<h2>Chapter  69 - </h2>
+		Define an object, species99, that has 2 properties: species, "feline", and averageWeight, 8.
+		<br>
+		<strong>
+			var species99 = {
+			species: "feline",
+			averageWeight: 8
+			};
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart69()" title="Validate">submit</button>  
+			<hr>
+		</div>
+		
+		<h2>Chapter  70 - </h2>
+		Define an object, species99, that has 2 properties. The first property is species. The second property is yet to be defined.		<br>
+		<br>
+		<strong>
+			var species99 = {
+			species: "feline",
+			averageWeight: undefined
+			};
+		</strong><br>
+		<div class="smart">
+			<button class = "htmlbutton" onclick = "smart70()" title="Validate">submit</button>  
+			<hr>
+		</div>
+	</main>
+	<footer>
+		<h4>Designed by Atefeh Saminfar. All rights reserved. © 2020 </h4>
+		<br>
+		<button class = "htmlbutton" onclick = "window.location.href='http://validator.w3.org/check?uri=referer';" title="Validate">W3C HTML5</button>           
+		<button class = "cssbutton" onclick = "window.location.href='http://jigsaw.w3.org/css-validator/check/referer';" title="Validate">W3C CSS</button>   
+	</footer>
+</body>
+</html>
